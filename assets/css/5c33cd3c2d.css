@@ -879,9 +879,6 @@
   .max-w-\[400px\] {
     max-width: 400px;
   }
-  .max-w-\[450px\] {
-    max-width: 450px;
-  }
   .max-w-\[1000px\] {
     max-width: 1000px;
   }
@@ -3582,11 +3579,6 @@
       grid-column: span 1 / span 1;
     }
   }
-  .lg\:col-span-2 {
-    @media (width >= 64rem) {
-      grid-column: span 2 / span 2;
-    }
-  }
   .lg\:col-span-3 {
     @media (width >= 64rem) {
       grid-column: span 3 / span 3;
@@ -3785,11 +3777,6 @@
   .lg\:grid-cols-4 {
     @media (width >= 64rem) {
       grid-template-columns: repeat(4, minmax(0, 1fr));
-    }
-  }
-  .lg\:grid-cols-5 {
-    @media (width >= 64rem) {
-      grid-template-columns: repeat(5, minmax(0, 1fr));
     }
   }
   .lg\:grid-cols-10 {
